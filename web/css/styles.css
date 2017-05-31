@@ -1,0 +1,47 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+.body {
+    width:100%;
+    float:left;
+    min-height: 500px;
+}
+.body .nav {
+    line-height:30px;
+    background-color:#eeeeee;    
+    width:250px;    
+    padding:5px;
+    float: left;    
+}
+.body .content {
+    width:700px;    
+    padding:10px;    
+    float: left;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+.add_form{
+    padding: 20px;
+}
+.add_form, .content_page ul{
+    list-style: none;
+}
+.add_form li{
+    margin: 10px;
+    min-width: 300px;    
+}
+.add_form li label{
+    float: left;
+    width: 50px;
+}
+.btn_act{
+    float: right;
+}

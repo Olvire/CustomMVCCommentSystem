@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Post Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Blog post comment system example" />
+    <meta name="keywords" content="Blog, posts, comment, php" />
+    <meta name="author" content="Waseem Mansha" />    
+    <link href="./web/css/styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="./web/js/script.js"></script>
+
+  </head>
+  <body>
+
+    <div id="header">
+      <h1>Blog Post Example</h1>
+    </div>
+    <div class="body">
+      <div class="nav">
+        <ul>        
+          <li>
+            <a href="<?php echo Utils::getLink('post/index'); ?>">List Posts</a>
+          </li>
+          <li>
+            <a href="<?php echo Utils::getLink('post/add'); ?>">Add Post</a>
+          </li>          
+        </ul>
+      </div>
+      <div class="content"> <!-- content div start --> 
+        <?php echo $content; ?>
+      </div> <!-- content div ends --> 
+    </div> 
+    <div id="footer">
+      Copyright @Waseem Mansha Blog post example
+    </div>
+  </body>
+</html>
